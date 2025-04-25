@@ -1,31 +1,25 @@
+## Dataset:
+A synthetic 500-row sales dataset was used to simulate Superstore-like data.
 
-# Ecommerce SQL Project
+## Tools Used:
+- Power BI Desktop
 
-This project demonstrates how to analyze an ecommerce dataset using SQL queries based on common data analysis tasks.
+## Visualizations Created:
+1. KPI Cards for Sales, Profit, Orders
+2. Region-wise Sales Donut Chart
+3. Sub-Category-wise Profit Stacked Column
+4. Monthly Sales Trend Line Chart
+5. Discount vs Profit Scatter Plot
+6. State-wise Sales Map
+7. Detailed Orders Table
 
-## Files Included
+## Key Insights:
+- West region leads in sales.
+- Machines show high losses despite good sales.
+- Discounts > 30% often correlate with negative profit.
 
-- `ecommerce_dataset.sql` – SQL script to create and populate the ecommerce database.
-- `ecommerce_queries.sql` – SQL queries using SELECT, JOINS, subqueries, aggregate functions, views, and indexes.
-- `output_screenshot.png` – Sample screenshot of executed queries.
-- `README.md` – Project overview and usage instructions.
-
-## Requirements
-
-- MySQL (or compatible SQL engine like PostgreSQL with minor tweaks)
-- SQL client like DBeaver, phpMyAdmin, or MySQL Workbench
-
-## How to Use
-
-1. Import `ecommerce_dataset.sql` into your SQL environment.
-2. Run queries from `ecommerce_queries.sql` to analyze the data.
-3. View the result outputs as per the screenshot.
-
-## Topics Covered
-
-- SELECT, WHERE, ORDER BY, GROUP BY
-- JOINS (INNER, LEFT, RIGHT)
-- Subqueries
-- Aggregate Functions (SUM, AVG)
-- Views for analysis
-- Index optimization
+## File Structure:
+- large_sales_dataset.csv
+- Power BI `.pbix` file
+- Screenshots folder
+- This README
